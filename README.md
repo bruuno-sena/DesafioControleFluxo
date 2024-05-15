@@ -1,18 +1,21 @@
-## Getting Started
+# Desafio Controle Fluxo
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## DIO - Criando Um Pequeno Sistema Para Validação de Processo Seletivo
 
-## Folder Structure
+Colocando em prática o conteúdo apresentado no módulo Dominando a Linguagem de Programção Java.
 
-The workspace contains two folders by default, where:
+## Funcionalidades
+- O programa solicita ao usuário que insira dois números inteiros.
+- Com base nos números inseridos, o programa realiza uma iteração (for) e imprime os números no console.
+- Se o primeiro parâmetro for maior que o segundo, uma exceção customizada chamada ParametrosInvalidosException é lançada.
+  
+## Estrutura do Projeto
+- Contador.java: Classe principal que contém a lógica principal do programa.
+- ParametrosInvalidosException.java: Classe de exceção customizada para lidar com a situação em que o segundo parâmetro é menor que o primeiro.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Autor
+Projeto desenvolvido por [Bruno Sena](https://github.com/bruuno-sena/) e faz parte do BootCamp Santander da Digital Innovation One.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Referências
+- Repositório do instrutor Gleyson Sampaio [GitHub](https://github.com/digitalinnovationone/trilha-java-basico/tree/main/desafios/sintaxe)
+- BootCamp Santander - [DIO](http://www.dio.me/)
